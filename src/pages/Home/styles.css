@@ -1,0 +1,63 @@
+#page-home{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #686868;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#page-home .header{
+    width: 720px;
+    height: 100px;
+
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-home .header h1{
+    width: 100%;
+    font-size: 80px;
+    color: #000000;
+    background-color: #e5e5e5;
+    text-align: center;
+    margin: 2px;
+}
+#page-home .content{
+    width: 720px;
+    height: 400px;
+
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#page-home .content .jackpotContent{
+    width: 200px;
+    height: 300px;
+
+    margin: 0 20px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-home .rodape{
+    width: 720px;
+    height: 100px;
+
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#page-home .rodape button{
+    width: 100px;
+    height: 80px;
+    font-size: 40px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
